@@ -3,14 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zena.ZKTeco.Forms", "Zena.ZKTeco.Forms\Zena.ZKTeco.Forms.csproj", "{10519750-E0B1-493C-B953-C9A470EF2DDB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zena.ZKTeco", "src\Zena.ZKTeco\Zena.ZKTeco.csproj", "{D1F12410-A80F-4436-8F0E-98BCB9ABA58B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zena.ZKTeco", "Zena.ZKTeco\Zena.ZKTeco.csproj", "{D1F12410-A80F-4436-8F0E-98BCB9ABA58B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zena.ZKTeco.Forms", "src\Zena.ZKTeco.Forms\Zena.ZKTeco.Forms.csproj", "{10519750-E0B1-493C-B953-C9A470EF2DDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZenaZKTecoDesktop", "ZenaZKTecoDesktop\ZenaZKTecoDesktop.csproj", "{B272B22E-5F12-4A39-854C-73C824A902AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZenaZKTecoDesktop", "src\ZenaZKTecoDesktop\ZenaZKTecoDesktop.csproj", "{B272B22E-5F12-4A39-854C-73C824A902AB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{90CAA641-02BA-4E0B-A7DD-BBDE9810CF14}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ADCB3DA0-2C95-430C-ACCC-05643B65FADB}"
 	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		CHANGELOG.md = CHANGELOG.md
 		README.md = README.md
 	EndProjectSection
 EndProject
@@ -20,14 +22,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{10519750-E0B1-493C-B953-C9A470EF2DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{10519750-E0B1-493C-B953-C9A470EF2DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{10519750-E0B1-493C-B953-C9A470EF2DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{10519750-E0B1-493C-B953-C9A470EF2DDB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D1F12410-A80F-4436-8F0E-98BCB9ABA58B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D1F12410-A80F-4436-8F0E-98BCB9ABA58B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1F12410-A80F-4436-8F0E-98BCB9ABA58B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1F12410-A80F-4436-8F0E-98BCB9ABA58B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10519750-E0B1-493C-B953-C9A470EF2DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10519750-E0B1-493C-B953-C9A470EF2DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10519750-E0B1-493C-B953-C9A470EF2DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10519750-E0B1-493C-B953-C9A470EF2DDB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B272B22E-5F12-4A39-854C-73C824A902AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B272B22E-5F12-4A39-854C-73C824A902AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B272B22E-5F12-4A39-854C-73C824A902AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
