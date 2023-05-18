@@ -272,5 +272,10 @@ namespace Zena.ZKTeco
             //    return;
             //}
         }
+
+        public static bool ClearAdministrators(this Zkem zkem, int dwMachineNumber = 1)
+        {
+            return zkem.ClearAdministrators(dwMachineNumber);
+        }
     }
 }

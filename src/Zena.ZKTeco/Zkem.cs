@@ -356,7 +356,7 @@ namespace Zena.ZKTeco
 
         public bool ClearAdministrators(int dwMachineNumber)
         {
-            throw new NotImplementedException();
+            return objCZKEM.ClearAdministrators(dwMachineNumber);
         }
 
         public bool ClearKeeperData(int dwMachineNumber)
