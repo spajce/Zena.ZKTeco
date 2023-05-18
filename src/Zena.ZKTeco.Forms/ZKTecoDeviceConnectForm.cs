@@ -50,7 +50,7 @@ namespace Zena.ZKTeco.Forms
 
                 if (!isPinged)
                 {
-                    MessageBox.Show("Cannot connect to device. Please make sure the device is connected on the network.");
+                    MessageBox.Show("The device cannot be connected to. Make sure that the device is network-connected.");
                     cancel = true;
                     return;
                 }
@@ -94,7 +94,8 @@ namespace Zena.ZKTeco.Forms
                     MessageBox.Show("Invalid credentials. Please check the IP Address, Password (Comm Key), Machine Number (Device ID) and Port of the device.\n" +
                         "The device default value:\n" +
                         "Machine Number (Device ID): 1\n" +
-                        "Port: 4370");
+                        "Port: 4370\n" +
+                        "CommKey: 1");
                     cancel = true;
                 }
             }
