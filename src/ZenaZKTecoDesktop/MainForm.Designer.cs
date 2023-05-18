@@ -29,42 +29,40 @@
         private void InitializeComponent()
         {
             this.DonwloadLogsButton = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.ClearAdministratorsButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // DonwloadLogsButton
             // 
-            this.DonwloadLogsButton.Location = new System.Drawing.Point(199, 25);
-            this.DonwloadLogsButton.Margin = new System.Windows.Forms.Padding(4);
+            this.DonwloadLogsButton.Location = new System.Drawing.Point(67, 38);
             this.DonwloadLogsButton.Name = "DonwloadLogsButton";
-            this.DonwloadLogsButton.Size = new System.Drawing.Size(228, 68);
+            this.DonwloadLogsButton.Size = new System.Drawing.Size(171, 55);
             this.DonwloadLogsButton.TabIndex = 0;
             this.DonwloadLogsButton.Text = "Download Logs";
             this.DonwloadLogsButton.UseVisualStyleBackColor = true;
             this.DonwloadLogsButton.Click += new System.EventHandler(this.DonwloadLogsButton_Click);
             // 
-            // dataGridView1
+            // ClearAdministratorsButton
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(82, 160);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(500, 202);
-            this.dataGridView1.TabIndex = 1;
+            this.ClearAdministratorsButton.Location = new System.Drawing.Point(585, 49);
+            this.ClearAdministratorsButton.Name = "ClearAdministratorsButton";
+            this.ClearAdministratorsButton.Size = new System.Drawing.Size(171, 55);
+            this.ClearAdministratorsButton.TabIndex = 2;
+            this.ClearAdministratorsButton.Text = "Clear Administrators";
+            this.ClearAdministratorsButton.UseVisualStyleBackColor = true;
+            this.ClearAdministratorsButton.Click += new System.EventHandler(this.ClearAdministratorsButton_Click);
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(708, 374);
-            this.Controls.Add(this.dataGridView1);
+            this.ClientSize = new System.Drawing.Size(869, 519);
+            this.Controls.Add(this.ClearAdministratorsButton);
             this.Controls.Add(this.DonwloadLogsButton);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Zena ZKTeco Desktop";
             this.Load += new System.EventHandler(this.MainForm_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -72,7 +70,7 @@
         #endregion
 
         private System.Windows.Forms.Button DonwloadLogsButton;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button ClearAdministratorsButton;
     }
 }
 
