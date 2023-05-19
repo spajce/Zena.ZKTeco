@@ -97,6 +97,9 @@ namespace ZenaZKTecoDesktop
             return ZKTecoGlobal.Connected;
         }
 
+        private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            ZKTecoGlobal.Zkem.Disconnect();
         }
     }
 }
