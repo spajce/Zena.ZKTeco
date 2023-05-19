@@ -94,7 +94,9 @@ namespace ZenaZKTecoDesktop
                     }
                 }
             }
-            return true;
+            return ZKTecoGlobal.Connected;
+        }
+
         }
     }
 }
