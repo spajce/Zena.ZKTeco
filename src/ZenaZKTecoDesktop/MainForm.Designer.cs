@@ -28,15 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.DonwloadLogsButton = new System.Windows.Forms.Button();
             this.ClearAdministratorsButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // DonwloadLogsButton
             // 
-            this.DonwloadLogsButton.Location = new System.Drawing.Point(67, 38);
+            this.DonwloadLogsButton.Location = new System.Drawing.Point(35, 27);
+            this.DonwloadLogsButton.Margin = new System.Windows.Forms.Padding(4);
             this.DonwloadLogsButton.Name = "DonwloadLogsButton";
-            this.DonwloadLogsButton.Size = new System.Drawing.Size(171, 55);
+            this.DonwloadLogsButton.Size = new System.Drawing.Size(228, 68);
             this.DonwloadLogsButton.TabIndex = 0;
             this.DonwloadLogsButton.Text = "Download Logs";
             this.DonwloadLogsButton.UseVisualStyleBackColor = true;
@@ -44,9 +46,10 @@
             // 
             // ClearAdministratorsButton
             // 
-            this.ClearAdministratorsButton.Location = new System.Drawing.Point(585, 49);
+            this.ClearAdministratorsButton.Location = new System.Drawing.Point(328, 27);
+            this.ClearAdministratorsButton.Margin = new System.Windows.Forms.Padding(4);
             this.ClearAdministratorsButton.Name = "ClearAdministratorsButton";
-            this.ClearAdministratorsButton.Size = new System.Drawing.Size(171, 55);
+            this.ClearAdministratorsButton.Size = new System.Drawing.Size(228, 68);
             this.ClearAdministratorsButton.TabIndex = 2;
             this.ClearAdministratorsButton.Text = "Clear Administrators";
             this.ClearAdministratorsButton.UseVisualStyleBackColor = true;
@@ -54,11 +57,13 @@
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(869, 519);
+            this.ClientSize = new System.Drawing.Size(569, 339);
             this.Controls.Add(this.ClearAdministratorsButton);
             this.Controls.Add(this.DonwloadLogsButton);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Zena ZKTeco Desktop";
