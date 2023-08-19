@@ -44,7 +44,8 @@
             // 
             // PasswordTextEdit
             // 
-            this.PasswordTextEdit.Location = new System.Drawing.Point(228, 110);
+            this.PasswordTextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.PasswordTextEdit.Location = new System.Drawing.Point(307, 110);
             this.PasswordTextEdit.Margin = new System.Windows.Forms.Padding(4);
             this.PasswordTextEdit.Name = "PasswordTextEdit";
             this.PasswordTextEdit.Size = new System.Drawing.Size(237, 20);
@@ -72,8 +73,8 @@
             // 
             // button1
             // 
-            this.button1.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.button1.Location = new System.Drawing.Point(259, 142);
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.Location = new System.Drawing.Point(338, 142);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 28);
@@ -84,8 +85,9 @@
             // 
             // button2
             // 
+            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button2.Location = new System.Drawing.Point(367, 142);
+            this.button2.Location = new System.Drawing.Point(446, 142);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 28);
@@ -115,7 +117,8 @@
             // 
             // PortTextBox
             // 
-            this.PortTextBox.Location = new System.Drawing.Point(228, 47);
+            this.PortTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.PortTextBox.Location = new System.Drawing.Point(307, 47);
             this.PortTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.PortTextBox.Name = "PortTextBox";
             this.PortTextBox.Size = new System.Drawing.Size(237, 20);
@@ -124,7 +127,8 @@
             // 
             // MachineNumTextBox
             // 
-            this.MachineNumTextBox.Location = new System.Drawing.Point(228, 78);
+            this.MachineNumTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.MachineNumTextBox.Location = new System.Drawing.Point(307, 78);
             this.MachineNumTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.MachineNumTextBox.Name = "MachineNumTextBox";
             this.MachineNumTextBox.Size = new System.Drawing.Size(237, 20);
@@ -133,7 +137,8 @@
             // 
             // IPAddressTextEdit
             // 
-            this.IPAddressTextEdit.Location = new System.Drawing.Point(228, 16);
+            this.IPAddressTextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.IPAddressTextEdit.Location = new System.Drawing.Point(307, 16);
             this.IPAddressTextEdit.Name = "IPAddressTextEdit";
             this.IPAddressTextEdit.Size = new System.Drawing.Size(237, 20);
             this.IPAddressTextEdit.TabIndex = 1;
@@ -141,11 +146,10 @@
             // 
             // ZKTecoDeviceConnectForm
             // 
-            this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.button2;
-            this.ClientSize = new System.Drawing.Size(484, 185);
+            this.ClientSize = new System.Drawing.Size(563, 185);
             this.Controls.Add(this.IPAddressTextEdit);
             this.Controls.Add(this.MachineNumTextBox);
             this.Controls.Add(this.PortTextBox);
@@ -156,7 +160,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.PasswordTextEdit);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;

@@ -88,6 +88,7 @@ namespace Zena.ZKTeco.Forms
                     Properties.Settings.Default.Save();
 
                     cancel = false;
+                    Close();
                 }
                 else
                 {
